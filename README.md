@@ -106,6 +106,37 @@ Para especificar que una función solo puede tener argumentos posicionales, agre
 
 ![image](https://github.com/user-attachments/assets/ef348683-195b-46d6-a1c2-e7048a34581c)
 
+16-  Argumentos de solo palabras clave Para especificar que una función solo puede tener argumentos de palabras clave, agregue *, antes de los argumentos:
 
+![image](https://github.com/user-attachments/assets/d2727b2c-6840-46f1-9f5c-d4d22ecfa4e6)
 
+![image](https://github.com/user-attachments/assets/85de09fc-edba-40b0-b906-adb5887c83fd)
 
+17- Sin el *, se le permite utilizar argumentos posicionales incluso si la función espera argumentos de palabras clave:
+
+![image](https://github.com/user-attachments/assets/f7cdf609-bf97-44ae-9cd5-5018cb4840e1)
+
+![image](https://github.com/user-attachments/assets/3f0c38d2-addb-4a50-ae21-65eba7c0ba70)
+
+18- Pero al agregar *, / obtendrás un error si intentas enviar un argumento posicional:
+
+![image](https://github.com/user-attachments/assets/82b4419c-751e-4a89-91f8-d5cc0abff1bc)
+
+![image](https://github.com/user-attachments/assets/029ac654-62a2-4c69-8fcc-3dd2caaf1434)
+
+19- Combine solo posicional y solo palabras clave Puede combinar los dos tipos de argumentos en la misma función.
+
+![image](https://github.com/user-attachments/assets/ee8409f8-af2d-4bf5-ad1b-b07717ebc572)
+
+![image](https://github.com/user-attachments/assets/851ba775-cff3-4c50-9b1a-24be07bba5dc)
+
+20- Recursividad
+Python también acepta la recursividad de funciones, lo que significa que una función definida puede llamarse a sí misma.
+La recursividad es un concepto matemático y de programación común. Significa que una función se llama a sí misma. Esto tiene la ventaja de que puede recorrer los datos para llegar a un resultado.
+El desarrollador debe tener mucho cuidado con la recursividad, ya que puede ser bastante fácil escribir una función que nunca termina, o una que utiliza cantidades excesivas de memoria o potencia del procesador. Sin embargo, cuando se escribe correctamente, la recursividad puede ser un enfoque de programación muy eficiente y matemáticamente elegante.
+En este ejemplo, tri_recursion() es una función que hemos definido para llamarse a sí misma ("recurse"). Usamos la variable k como datos, que disminuye (-1) cada vez que recurrimos. La recursividad finaliza cuando la condición no es mayor que 0 (es decir, cuando es 0).
+A un nuevo desarrollador le puede llevar algún tiempo descubrir cómo funciona exactamente esto; la mejor manera de averiguarlo es probándolo y modificándolo.
+
+![image](https://github.com/user-attachments/assets/09835b17-c08d-484e-9cff-07d013a9f64c)
+
+![image](https://github.com/user-attachments/assets/798e82a1-94c8-4a70-8d10-ee00afe8e6c3)
