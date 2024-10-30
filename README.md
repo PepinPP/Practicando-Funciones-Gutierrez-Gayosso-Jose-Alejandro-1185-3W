@@ -77,15 +77,34 @@ def my_function(x):
 
 ![image](https://github.com/user-attachments/assets/40eb42f4-bcf7-4401-b5c8-6cc2a642198e)
 
+12- La declaración del pass
+Las definiciones de función no pueden estar vacías, pero si por alguna razón tiene una definición de función sin contenido, ingrese la instrucción pass para evitar recibir un error.
+
+![image](https://github.com/user-attachments/assets/9f61dd80-7b8b-4576-9ebc-9911e576880a)
+
+![image](https://github.com/user-attachments/assets/7a27b9dd-5f0d-4648-8b8e-b1f965577ec6)
+
+13- Argumentos sólo posicionales 
+Puede especificar que una función pueda tener SÓLO argumentos posicionales o SÓLO argumentos de palabras clave.
+Para especificar que una función solo puede tener argumentos posicionales, agregue , / después de los argumentos:
+Ícono de validado por la comunidad
+
+![image](https://github.com/user-attachments/assets/fb29d7a2-a510-4f40-9c61-1324b9a28019)
+
+![image](https://github.com/user-attachments/assets/3de523a8-d060-4aa2-8197-2766994117b6)
 
 
+14- Sin , / en realidad se le permite usar argumentos de palabras clave incluso si la función espera argumentos posicionales:
 
+![image](https://github.com/user-attachments/assets/994e5d0d-ef4b-4a50-a428-eeb034fb7103)
 
+![image](https://github.com/user-attachments/assets/2ff93d4f-8e6b-4ba5-9259-c806c702af4c)
 
+15- Pero al agregar , / obtendrá un error si intenta enviar un argumento de palabra clave:
 
+![image](https://github.com/user-attachments/assets/3b7a50df-e474-4c22-b7d5-a3afc5807992)
 
-
-
+![image](https://github.com/user-attachments/assets/ef348683-195b-46d6-a1c2-e7048a34581c)
 
 
 
