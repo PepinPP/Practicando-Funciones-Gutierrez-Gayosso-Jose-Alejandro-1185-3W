@@ -42,15 +42,40 @@ Si se desconoce el número de argumentos, agregue un * antes del nombre del par�
 
 7- También puede enviar argumentos con la sintaxis clave = valor.
 
+![image](https://github.com/user-attachments/assets/ecf6602c-abd5-4727-b3dc-ec6bd1448035)
 
+![image](https://github.com/user-attachments/assets/412720d0-8638-4c3f-9719-3b87fd00c7e2)
 
+8- Argumentos arbitrarios de palabras clave, **kwargs
+Si no sabe cuántos argumentos de palabras clave se pasarán a su función, agregue dos asteriscos: ** antes del nombre del parámetro en la definición de la función.
+De esta manera, la función recibirá un diccionario de argumentos y podrá acceder a los elementos en consecuencia:
+Si se desconoce el número de argumentos de palabras clave, agregue un doble ** antes del nombre del parámetro:
 
+![image](https://github.com/user-attachments/assets/92b56742-8481-4fbd-a391-5eabb87a7726)
 
+![image](https://github.com/user-attachments/assets/cf48e180-893a-4fcd-a2fe-134a22c61c8e)
 
+9- Valor de parámetro predeterminado
+El siguiente ejemplo muestra cómo utilizar un valor de parámetro predeterminado.
 
+![image](https://github.com/user-attachments/assets/161b918b-61bd-4aea-9159-04247d2051fc)
 
+![image](https://github.com/user-attachments/assets/8243124c-90c4-45c1-be1e-0318e868394d)
 
+10- Pasar una lista como argumento
+Puede enviar cualquier tipo de argumento de datos a una función (cadena, número, lista, diccionario, etc.) y será tratado como el mismo tipo de datos dentro de la función.
 
+![image](https://github.com/user-attachments/assets/305c49a5-1211-4123-a0da-efe17d59cdb0)
+
+![image](https://github.com/user-attachments/assets/df4aeda3-d363-4621-b1c4-e29af046cb37)
+
+11- Regresa Valores
+Para permitir que una función devuelva un valor, utilice la declaración de retorno:
+def my_function(x):
+
+![image](https://github.com/user-attachments/assets/77090f90-76a9-4054-8cd5-449bd75dcb9e)
+
+![image](https://github.com/user-attachments/assets/40eb42f4-bcf7-4401-b5c8-6cc2a642198e)
 
 
 
